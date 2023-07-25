@@ -84,7 +84,8 @@
     <section class="container mt-10">
       <div class="carousel w-full h-[calc(100vh-105px)] rounded-lg">
         <div id="slide1" class="carousel-item relative w-full" style="
-              background-image: url('images/banner1.png');
+              background-image: url('images/banner1.png'),linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+              background-blend-mode: overlay;
               background-position: center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -106,7 +107,8 @@
           </div>
         </div>
         <div id="slide2" style="
-              background-image: url('images/banner2.png');
+              background-image: url('images/banner2.png'),linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+              background-blend-mode: overlay;
               background-position: center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -127,11 +129,12 @@
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle  bg-black text-white border-0"">❮</a>
-              <a href=" #slide3" class="btn btn-circle  bg-black text-white border-0"">❯</a>
+              <a href="#slide3" class="btn btn-circle  bg-black text-white border-0"">❯</a>
             </div>
           </div>
-          <div id=" slide3" style="
-              background-image: url('images/banner3.png');
+          <div id="slide3" style="
+              background-image: url('images/banner3.png'),linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+              background-blend-mode: overlay;
               background-position: center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -157,7 +160,8 @@
               </div>
           </div>
           <div id="slide4" style="
-              background-image: url('images/banner4.png');
+              background-image: url('images/banner4.png'),linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+              background-blend-mode: overlay;
               background-position: center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -286,9 +290,15 @@
 
       </div>
       <div class="flex justify-center mt-10">
-        <button class="btn bg-primary text-white border-0 text-center">Shop All</button>
+        <button class="btn bg-primary text-white border-0 text-center ">Shop All</button>
 
       </div>
+    </section>
+
+    <!-- team section  -->
+    <section class="container mt-28 m-auto h-[550px]"
+      style="background-image: url('images/team.png');background-color: rgba(18, 18, 18, 0.70); background-repeat: no-repeat;background-position: center; background-size: cover; background-blend-mode: overlay;">
+
     </section>
   </main>
   <footer></footer>
